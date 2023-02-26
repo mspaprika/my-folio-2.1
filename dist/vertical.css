@@ -116,7 +116,8 @@ body .vertical-container {
   grid-auto-flow: row;
   height: 100dvh;
   width: 100vw;
-  overflow-y: scroll;
+  overflow-y: auto;
+  overscroll-behavior-y: contain;
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
   -ms-overflow-style: none; /*  hide  scrollbar // IE and Edge */
@@ -143,9 +144,8 @@ body .vertical-container .section-vertical {
 }
 body .vertical-container .section-vertical .section-wrapper {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   padding-top: 50px;
-  padding-bottom: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
