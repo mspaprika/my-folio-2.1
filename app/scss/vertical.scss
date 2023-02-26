@@ -16,7 +16,7 @@ body {
         margin: 0;
         display: grid;
         grid-auto-flow: row;
-        height: 100dvh;
+        height: 100vh;
         width: 100vw;
         // overflow-x: hidden;
         overflow-y: scroll;
@@ -66,6 +66,10 @@ body {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
+            }
+
+            .icon {
+                padding-bottom: 50px;
             }
 
             .section-top {
