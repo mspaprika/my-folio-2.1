@@ -107,14 +107,14 @@ html {
 body {
   background: #a62121;
   width: 100vw;
-  min-height: 100vh;
+  min-height: 100svh;
   margin: 0;
 }
 body .vertical-container {
   margin: 0;
   display: grid;
   grid-auto-flow: row;
-  height: 100dvh;
+  height: 100svh;
   width: 100vw;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
@@ -138,12 +138,12 @@ body .vertical-container .section-vertical {
   justify-content: center;
   color: white;
   width: 100vw;
-  min-height: 100vh;
+  min-height: 100svh;
   scroll-snap-align: start;
 }
 body .vertical-container .section-vertical .section-wrapper {
   width: 100%;
-  height: 100vh;
+  height: 100svh;
   padding-top: 50px;
   display: flex;
   flex-direction: column;
