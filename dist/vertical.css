@@ -114,7 +114,7 @@ body .vertical-container {
   margin: 0;
   display: grid;
   grid-auto-flow: row;
-  height: 100svh;
+  height: 100dvh;
   width: 100vw;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
@@ -126,10 +126,6 @@ body .vertical-container .my-nav {
   width: 100vw;
   height: 60px;
   background-color: rgb(255, 255, 255);
-  position: sticky;
-  top: 0;
-  left: 0;
-  z-index: 1;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -143,7 +139,7 @@ body .vertical-container .section-vertical {
   color: white;
   width: 100vw;
   min-height: 100vh;
-  scroll-snap-align: center;
+  scroll-snap-align: start;
 }
 body .vertical-container .section-vertical .section-wrapper {
   width: 100%;
