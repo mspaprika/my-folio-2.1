@@ -138,7 +138,7 @@ body .vertical-container .section-vertical {
   justify-content: center;
   color: white;
   width: 100vw;
-  min-height: 100svh;
+  min-height: 100vh;
   scroll-snap-align: start;
 }
 body .vertical-container .section-vertical .section-wrapper {
