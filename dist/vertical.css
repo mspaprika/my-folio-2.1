@@ -126,6 +126,7 @@ body .vertical-container .my-nav {
   width: 100vw;
   height: 60px;
   background-color: rgb(255, 255, 255);
+  position: sticky;
   display: flex;
   justify-content: space-around;
   align-items: center;
