@@ -127,6 +127,9 @@ body .vertical-container .my-nav {
   height: 60px;
   background-color: rgb(255, 255, 255);
   position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -139,12 +142,12 @@ body .vertical-container .section-vertical {
   justify-content: center;
   color: white;
   width: 100vw;
-  min-height: 100vh;
+  min-height: 100svh;
   scroll-snap-align: start;
 }
 body .vertical-container .section-vertical .section-wrapper {
   width: 100%;
-  height: 100vh;
+  height: 100svh;
   padding-top: 50px;
   display: flex;
   flex-direction: column;
