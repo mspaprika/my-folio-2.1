@@ -10,6 +10,11 @@ body {
     width: 100vw;
     min-height: 100vh;
     margin: 0;
+
+    a {
+        text-decoration: none;
+    }
+    
   
     .vertical-container {
         margin: 0;
@@ -17,20 +22,18 @@ body {
         grid-auto-flow: row;
         height: 100vh;
         width: 100vw;
-        // overflow-x: hidden;
         overflow-y: scroll;
-        // overscroll-behavior-y: contain;
         scroll-snap-type: y mandatory;
         scroll-behavior: smooth; 
         -ms-overflow-style: none;  /*  hide  scrollbar // IE and Edge */
         scrollbar-width: none;  /*   hide scrollbar // Firefox */  
 
         .my-nav {
-
-            // position: absolute !important;
+            font-family: 'Raleway', sans-serif;
+            
             width: 100vw;
             height: 60px;
-            background-color: rgb(255, 255, 255);
+            background-color: #393053;
             position: sticky;
             top: 0;
             left: 0;
@@ -39,10 +42,12 @@ body {
             justify-content: space-around;
             align-items: center;
             box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2); 
-            // width: 100vw;
-            // height: 70px;
-            // background-color: rgb(255, 255, 255);
-            // @include nav-bar-style;
+
+            a {
+                color: white;
+                text-decoration: none !important;
+            }
+    
         }     
   
         .section-vertical {
@@ -58,18 +63,37 @@ body {
             
 
             .section-wrapper {
-                // position: relative;
                 width: 100%;
                 height: 100%;
                 padding-top: 50px;
-                // padding-bottom: 100px;
                 display: flex;
                 flex-direction: column;
+                justify-content: center;
                 align-items: center;
+                // font-family: 'Gloria Hallelujah',
+
+                h1 {
+                    font-size: 5rem;
+                    font-family: 'Gloria Hallelujah';
+                    margin: 0 !important;
+                }
             }
 
+            .navbar-nav{
+                .nav-item {
+                    padding: 0 20px 0 20px;
+                }
+
+                a {
+                    color: rgb(216, 212, 212);
+                }
+            }
+
+            
+
             .icon {
-                padding-bottom: 50px;
+                position: relative;
+                bottom: -50px;
             }
 
             .section-top {
@@ -79,11 +103,11 @@ body {
             }
 
         &:nth-of-type(1) {
-            background: #49b293;
+            background: #443C68;
         }
   
         &:nth-of-type(2) {
-            background: #c94e4b;
+            background: #ECECEC;
         }
   
         &:nth-of-type(3) {
@@ -100,24 +124,42 @@ body {
 
         .down-arrow {
             transform: rotate(90deg);
+            margin-top: 50px;
         }
 
         .article {
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             text-align: center;
+            font-family: 'Raleway', sans-serif;
+            letter-spacing: 2px;
+            font-size: larger;
+
+            img, svg {
+                width: 40px;
+                height: 40px;
+            }
+
+            .linkedin {
+                width: 50px;
+                height: 50px;
+            }
+
+            .welcome {
+                font-size: 1.9rem;
+                
+            }
         }
 
         h1 {
             font-family: Arial, Helvetica, sans-serif;
-            font-size: 3rem;
+            font-size: min(5rem, 18vw) !important;
             text-align: center;
         }
 
-  
     }
-
         
 }
 }
