@@ -1,3 +1,4 @@
+
 @mixin nav-bar-style {
         position: absolute !important;
         width: 100vw;
@@ -18,7 +19,6 @@ body {
     min-height: 100vh;
     margin: 0;   
     background-color: darkorchid;
-    // overflow-x: hidden;
 
     .my-container {
         width: 100%;
@@ -32,6 +32,11 @@ body {
 
         .my-nav {
             @include nav-bar-style;
+            background-color: #393053;
+
+            .nav-link, a {
+                color: white
+            }
         }     
 
         .section-horizontal {
@@ -73,8 +78,8 @@ body {
             }
 
             &:nth-of-type(1) {
-                background-color: palevioletred;
-                color: chartreuse;
+                background-color: #443C68;
+                color: white;
             }
 
             &:nth-of-type(2) {
@@ -105,9 +110,7 @@ body {
             .left-arrow {
                 transform: rotate(180deg);
             }
-       
     }
-
 
 }
 }
@@ -131,19 +134,5 @@ body {
     }
 }
 
-// @media screen and (min-width: 280px) and (max-width: 767px) {
-    
-//     .my-container {
-        
-//         .section-horizontal {
-//             overflow-y: scroll !important;
-//             min-height: 100dvh;
 
-//             .section-wrapper {
-//                 overflow-y: scroll !important;
-//                 min-height: 100dvh !important;
-//             }
-//             }
-//         }
-//     }
 

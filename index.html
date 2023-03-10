@@ -11,6 +11,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
         </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Raleway:wght@200;300;400&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Raleway:wght@200;300;400&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./dist/vertical.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script defer src="/app/js/index.js" type="text/javascript"></script>
@@ -20,77 +28,108 @@
     <div class="vertical-container">
 
         <section class="section-vertical" id="1">
-            <nav class="my-nav" id="nav">
-                <a href="#1">Home</a>
-                <a href="#2">About</a>
-                <a href="#3">Contact</a>
-                <a href="projects.html">Projects</a>
-                <a href="projects.html#3">To 3</a>
+            <nav class="navbar navbar-expand-lg my-nav">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="projects.html">Projects</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#1">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#2">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#3">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
 
             <div class="section-wrapper">
                 <h1 class="section-top text-align-center col-12">
-                    Section 1
+                    I'm Arune
                 </h1>
                 <div class="article">
-                    <p class="col-lg-10 col-sm-12 p-3">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus reiciendis quia dolorum
-                        laborum
-                        incidunt, corrupti repellendus autem perferendis fugiat alias ut qui quos sapiente perspiciatis,
-                        optio
-                        neque inventore totam sit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae
-                        aliquid
-                        obcaecati minus nostrum, quasi laudantium voluptatem mollitia quo omnis, sit, explicabo fugit?
-                        Animi
-                        optio autem facere recusandae impedit deleniti voluptas tempore ullam asperiores, dignissimos
-                        dolores
-                        non laborum, fuga deserunt rem quis, soluta sequi enim necessitatibus. Deserunt unde enim
-                        accusantium
-                        nemo consequuntur tempore explicabo atque odio repellendus? Nihil dicta sed dolor tempora
-                        sapiente
-                        atque
-                        architecto hic iusto accusamus quos officia animi molestias nostrum, enim aliquid beatae
-                        adipisci
-                        dolorem corporis minus quasi pariatur voluptatibus dolorum. Aliquam incidunt beatae quam
-                        voluptatum
-                        dicta repudiandae doloremque cum, dolorum vitae eius labore laboriosam. Voluptas, assumenda
-                        vero.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus reiciendis quia dolorum
-                        laborum
-                        incidunt, corrupti repellendus autem perferendis fugiat alias ut qui quos sapiente perspiciatis,
-                        optio
-                        neque inventore totam sit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae
-                        aliquid
-                        obcaecati minus nostrum, quasi laudantium voluptatem mollitia quo omnis, sit, explicabo fugit?
-                        Animi
-                        optio autem facere recusandae impedit deleniti voluptas tempore ullam asperiores, dignissimos
-                        dolores
-                        non laborum, fuga deserunt rem quis, soluta sequi enim necessitatibus. Deserunt unde enim
-                        accusantium
-                        nemo consequuntur tempore explicabo atque odio repellendus? Nihil dicta sed dolor tempora
-                        sapiente
-                        atque
-                        architecto hic iusto accusamus quos officia animi molestias nostrum, enim aliquid beatae
-                        adipisci
-                        dolorem corporis minus quasi pariatur voluptatibus dolorum. Aliquam incidunt beatae quam
-                        voluptatum
-                        dicta repudiandae doloremque cum, dolorum vitae eius labore laboriosam. Voluptas, assumenda
-                        vero.
+                    <p class="col-lg-12 p-3 welcome">
+                        Welcome to my portfolio.
                     </p>
+                    <div>
+                        <a href="https://github.com/mspaprika">
+                            <img class="icons" src="app\pics\github-mark-white.png" alt="github">
+                        </a>
+                        <a>
+                            <svg class="linkedin" width="800px" height="800px" viewBox="0 0 16 16"
+                                xmlns="http://www.w3.org/2000/svg" fill="none">
+                                <path fill="#0A66C2"
+                                    d="M12.225 12.225h-1.778V9.44c0-.664-.012-1.519-.925-1.519-.926 0-1.068.724-1.068 1.47v2.834H6.676V6.498h1.707v.783h.024c.348-.594.996-.95 1.684-.925 1.802 0 2.135 1.185 2.135 2.728l-.001 3.14zM4.67 5.715a1.037 1.037 0 01-1.032-1.031c0-.566.466-1.032 1.032-1.032.566 0 1.031.466 1.032 1.032 0 .566-.466 1.032-1.032 1.032zm.889 6.51h-1.78V6.498h1.78v5.727zM13.11 2H2.885A.88.88 0 002 2.866v10.268a.88.88 0 00.885.866h10.226a.882.882 0 00.889-.866V2.865a.88.88 0 00-.889-.864z" />
+                            </svg>
+                        </a>
+                        <a>
+                            <svg width="800px" height="800px" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M21 7V17C21 20 19.5 22 16 22H8C4.5 22 3 20 3 17V7C3 4 4.5 2 8 2H16C19.5 2 21 4 21 7Z"
+                                    stroke="#F3F7FA" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M14.5 4.5V6.5C14.5 7.6 15.4 8.5 16.5 8.5H18.5" stroke="#F3F7FA"
+                                    stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M8 13H12" stroke="#F3F7FA" stroke-width="1.5" stroke-miterlimit="10"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M8 17H16" stroke="#F3F7FA" stroke-width="1.5" stroke-miterlimit="10"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                        <a>
+                            <svg width="800px" height="800px" viewBox="0 0 32 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M2 11.9556C2 8.47078 2 6.7284 2.67818 5.39739C3.27473 4.22661 4.22661 3.27473 5.39739 2.67818C6.7284 2 8.47078 2 11.9556 2H20.0444C23.5292 2 25.2716 2 26.6026 2.67818C27.7734 3.27473 28.7253 4.22661 29.3218 5.39739C30 6.7284 30 8.47078 30 11.9556V20.0444C30 23.5292 30 25.2716 29.3218 26.6026C28.7253 27.7734 27.7734 28.7253 26.6026 29.3218C25.2716 30 23.5292 30 20.0444 30H11.9556C8.47078 30 6.7284 30 5.39739 29.3218C4.22661 28.7253 3.27473 27.7734 2.67818 26.6026C2 25.2716 2 23.5292 2 20.0444V11.9556Z"
+                                    fill="white" />
+                                <path
+                                    d="M22.0515 8.52295L16.0644 13.1954L9.94043 8.52295V8.52421L9.94783 8.53053V15.0732L15.9954 19.8466L22.0515 15.2575V8.52295Z"
+                                    fill="#EA4335" />
+                                <path
+                                    d="M23.6231 7.38639L22.0508 8.52292V15.2575L26.9983 11.459V9.17074C26.9983 9.17074 26.3978 5.90258 23.6231 7.38639Z"
+                                    fill="#FBBC05" />
+                                <path
+                                    d="M22.0508 15.2575V23.9924H25.8428C25.8428 23.9924 26.9219 23.8813 26.9995 22.6513V11.459L22.0508 15.2575Z"
+                                    fill="#34A853" />
+                                <path d="M9.94811 24.0001V15.0732L9.94043 15.0669L9.94811 24.0001Z" fill="#C5221F" />
+                                <path
+                                    d="M9.94014 8.52404L8.37646 7.39382C5.60179 5.91001 5 9.17692 5 9.17692V11.4651L9.94014 15.0667V8.52404Z"
+                                    fill="#C5221F" />
+                                <path d="M9.94043 8.52441V15.0671L9.94811 15.0734V8.53073L9.94043 8.52441Z"
+                                    fill="#C5221F" />
+                                <path
+                                    d="M5 11.4668V22.6591C5.07646 23.8904 6.15673 24.0003 6.15673 24.0003H9.94877L9.94014 15.0671L5 11.4668Z"
+                                    fill="#4285F4" />
+                            </svg>
+                        </a>
+
+                    </div>
                 </div>
+
                 <div class="col-12 d-flex justify-content-center pb-10 icon">
                     <a href="#2">
                         <svg class="down-arrow" width="100px" height="100px" viewBox="0 0 24 24" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"
-                                stroke="#323232" stroke-width="2" />
-                            <path d="M16 12L8 12" stroke="#323232" stroke-width="2" stroke-linecap="round"
+                                stroke="#635985" stroke-width="2" />
+                            <path d="M16 12L8 12" stroke="#635985" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round" />
                             <path d="M13 15L15.913 12.087V12.087C15.961 12.039 15.961 11.961 15.913 11.913V11.913L13 9"
-                                stroke="#323232" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                stroke="#635985" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
                     </a>
+
                 </div>
             </div>
         </section>
@@ -102,11 +141,11 @@
                             xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"
-                                stroke="#323232" stroke-width="2" />
-                            <path d="M16 12L8 12" stroke="#323232" stroke-width="2" stroke-linecap="round"
+                                stroke="#635985" stroke-width="2" />
+                            <path d="M16 12L8 12" stroke="#635985" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round" />
                             <path d="M13 15L15.913 12.087V12.087C15.961 12.039 15.961 11.961 15.913 11.913V11.913L13 9"
-                                stroke="#323232" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                stroke="#635985" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
                     </a>
                 </div>
@@ -124,11 +163,11 @@
                             xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"
-                                stroke="#323232" stroke-width="2" />
-                            <path d="M16 12L8 12" stroke="#323232" stroke-width="2" stroke-linecap="round"
+                                stroke="#635985" stroke-width="2" />
+                            <path d="M16 12L8 12" stroke="#635985" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round" />
                             <path d="M13 15L15.913 12.087V12.087C15.961 12.039 15.961 11.961 15.913 11.913V11.913L13 9"
-                                stroke="#323232" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                stroke="#635985" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
                     </a>
                 </div>

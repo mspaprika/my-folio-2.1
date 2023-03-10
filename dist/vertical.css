@@ -27,6 +27,10 @@ body .my-container .my-nav {
   justify-content: space-around;
   align-items: center;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  background-color: #393053;
+}
+body .my-container .my-nav .nav-link, body .my-container .my-nav a {
+  color: white;
 }
 body .my-container .section-horizontal {
   flex: none;
@@ -63,8 +67,8 @@ body .my-container .section-horizontal .btn-3 {
   left: calc(50vw - 75px);
 }
 body .my-container .section-horizontal:nth-of-type(1) {
-  background-color: palevioletred;
-  color: chartreuse;
+  background-color: #443C68;
+  color: white;
 }
 body .my-container .section-horizontal:nth-of-type(2) {
   background-color: rgb(233, 224, 96);
@@ -110,6 +114,9 @@ body {
   min-height: 100vh;
   margin: 0;
 }
+body a {
+  text-decoration: none;
+}
 body .vertical-container {
   margin: 0;
   display: grid;
@@ -123,9 +130,10 @@ body .vertical-container {
   scrollbar-width: none; /*   hide scrollbar // Firefox */
 }
 body .vertical-container .my-nav {
+  font-family: "Raleway", sans-serif;
   width: 100vw;
   height: 60px;
-  background-color: rgb(255, 255, 255);
+  background-color: #393053;
   position: sticky;
   top: 0;
   left: 0;
@@ -134,6 +142,10 @@ body .vertical-container .my-nav {
   justify-content: space-around;
   align-items: center;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+body .vertical-container .my-nav a {
+  color: white;
+  text-decoration: none !important;
 }
 body .vertical-container .section-vertical {
   display: flex;
@@ -151,10 +163,23 @@ body .vertical-container .section-vertical .section-wrapper {
   padding-top: 50px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
+body .vertical-container .section-vertical .section-wrapper h1 {
+  font-size: 5rem;
+  font-family: "Gloria Hallelujah";
+  margin: 0 !important;
+}
+body .vertical-container .section-vertical .navbar-nav .nav-item {
+  padding: 0 20px 0 20px;
+}
+body .vertical-container .section-vertical .navbar-nav a {
+  color: rgb(216, 212, 212);
+}
 body .vertical-container .section-vertical .icon {
-  padding-bottom: 50px;
+  position: relative;
+  bottom: -50px;
 }
 body .vertical-container .section-vertical .section-top {
   display: flex;
@@ -162,10 +187,10 @@ body .vertical-container .section-vertical .section-top {
   align-items: center;
 }
 body .vertical-container .section-vertical:nth-of-type(1) {
-  background: #49b293;
+  background: #443C68;
 }
 body .vertical-container .section-vertical:nth-of-type(2) {
-  background: #c94e4b;
+  background: #ECECEC;
 }
 body .vertical-container .section-vertical:nth-of-type(3) {
   background: #4cc1be;
@@ -178,16 +203,32 @@ body .vertical-container .section-vertical .top-arrow {
 }
 body .vertical-container .section-vertical .down-arrow {
   transform: rotate(90deg);
+  margin-top: 50px;
 }
 body .vertical-container .section-vertical .article {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 2px;
+  font-size: larger;
+}
+body .vertical-container .section-vertical .article img, body .vertical-container .section-vertical .article svg {
+  width: 40px;
+  height: 40px;
+}
+body .vertical-container .section-vertical .article .linkedin {
+  width: 50px;
+  height: 50px;
+}
+body .vertical-container .section-vertical .article .welcome {
+  font-size: 1.9rem;
 }
 body .vertical-container .section-vertical h1 {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 3rem;
+  font-size: min(5rem, 18vw) !important;
   text-align: center;
 }
 
